@@ -51,7 +51,7 @@ public class CodingProblem1 {
 	}
 	
 	public static void main(String[] args) {
-		//loop to add random 10 random numbers to each list between 0 and 30
+		//loop to add random numbers to each list
 		for(int i = 0; i < 10; i++) {
 			int numToAdd = rand.nextInt(30) + 1; //add 1 to prevent "Bound must be positive exception" nextInt() uses bound - 1 which results in occasional 0 - 1 instaces and produces error.
 			
